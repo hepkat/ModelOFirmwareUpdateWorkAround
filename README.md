@@ -82,16 +82,18 @@ From Step 10 and beyond:
 2. Right-click the Zip file and choose 7zip->`Extract to "XVI\"` - The password is `XVI`  
 3. Open this new folder and create a new folder within it named `NRF52840` and another folder named `NRF52810+264J` (these are the correct names).  
 4. Now move the 3 .hex files into the `NRF52840` folder  
+
 **So for `v3.0.8_Model_OFirmware\NRF52840`**  
         ```CM2822_Mouse_USB_v0.03.08_20210112.hex```  
         ```DX_264_Dongle_v0.03.09.05_20200521.hex```  
         ```DX_Receiver_810_v0.03.09_20200521.hex```  
---------------------------------------------------------------------  
+
 **and for `v3.0.8_Model_OFirmwareWireless\NRF52840`**  
         ```CD_264_Dongle_v0.01.03_20200629.hex```  
         ```CD_Receiver_APP_v0.01.03_20200629.hex```  
         ```CM2822_Receiver_USB_v0.03.08_20210112.hex```  
---------------------------------------------------------------------  
+
+
 5. You don't put anything into the `NRF52810+264J` folder. It remains empty.  
 6. It should look like this in the XVI folder.  
 https://i.imgur.com/LkhUth7.png  

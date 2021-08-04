@@ -111,7 +111,7 @@ From Step 10 and beyond:
 
 9. Now open the FirmwareUpdate.exe (do not need to do it as admin).  
 
-10. It should hopefully open the FirmwareUpdate.exe as normal so that you can continue from Step 15 above. If you don't see the window, see if you can find it in task manager and bring it to front similar to the original steps. You should see a window similar to this (make sure ATE is **UNCHECKED** even though it's checked in).  
+10. It should hopefully open the FirmwareUpdate.exe as normal so that you can continue from Step 15 above. If you don't see the window, see if you can find it in task manager and bring it to front similar to the original steps. You should see a window similar to this (make sure ATE is **UNCHECKED**).  
 ![](https://i.imgur.com/Jkc5NdT.png)
 
 **If FirmwareUpdate.exe still automatically closes you will have to attempt to update your firmware through a VIRTUAL MACHINE like VirtualBox**

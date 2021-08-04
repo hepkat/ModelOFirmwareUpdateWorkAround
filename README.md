@@ -1,4 +1,4 @@
-# ModelOFirmwareUpdateWorkAround
+# Model O Firmware Update Workaround
 Tutorial work around for Glorious Model O Wireless (Probably works for the Model O Wired as well)
 -------------------------------------------------------------------------------------------------
 **Disclaimer:** If you brick your mouse, I'm not responsible. This might work for the wired model O as well. I imagine the wired only has to update a single firmware, where as the wireless has to update two (the mouse itself and the wireless portion of the mouse).

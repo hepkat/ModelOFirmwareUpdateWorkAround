@@ -46,7 +46,7 @@ https://www.7-zip.org/download.html
 ![](https://i.imgur.com/dTcewnp.png)
 
 11. Right-Click and run-as-admin for **FirmwareUpdate.exe**    
-![](https://i.imgur.com/cCzmZaX.png)
+![](https://i.imgur.com/AFecrLg.png)
 
 12. It will seem like nothing happens.
 

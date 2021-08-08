@@ -53,7 +53,7 @@ https://www.7-zip.org/download.html
 13. Open your Task Manager (Ctrl+Alt+Del or Right-Click your taskbar and choose Task Manager).
 
 14. In Task Manager you should see “**FirmwareUpdate (32 bit)**” listed if you’re on the “**Processes**” tab, expand it and then right-click on its sub-process “**FirmwareUpdater**” and choose “Bring to Front.”  
-![](https://i.imgur.com/7UUEd1F.png)
+![](https://i.imgur.com/RSjgrmV.png)
 
 15. **If FirmwareUpdate.exe Automatically closes - Please skip down to my edit below!**
 

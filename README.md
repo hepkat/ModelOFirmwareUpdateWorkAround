@@ -45,46 +45,13 @@ https://www.7-zip.org/download.html
 **v3.0.8_Model_OFirmwareWireless** is the firmware for the wireless dongle/wireless receiver in the mouse.    
 ![](https://i.imgur.com/dTcewnp.png)
 
-11. Right-Click and run-as-admin for **FirmwareUpdate.exe**    
-![](https://i.imgur.com/AFecrLg.png)
+11. Open the first folder and drag and drop the XVI.zip file to your desktop.  
 
-12. It will seem like nothing happens.
+12. Right-click the Zip file and choose 7zip->`Extract to "XVI\"` - The password is `XVI`  
 
-13. Open your Task Manager (Ctrl+Alt+Del or Right-Click your taskbar and choose Task Manager).
+13. Open this new folder and create a new folder within it named `NRF52840` and another folder named `NRF52810+264J` (these are the correct names).  
 
-14. In Task Manager you should see “**FirmwareUpdate (32 bit)**” listed if you’re on the “**Processes**” tab, expand it and then right-click on its sub-process “**FirmwareUpdater**” and choose “Bring to Front.”  
-![](https://i.imgur.com/RSjgrmV.png)
-
-15. **If FirmwareUpdate.exe Automatically closes - Please skip down to my edit below!**
-
-16. You'll see a window like this (don't worry if you don't see/read the same version numbers as my screenshot. Uncheck the ATE box and then click on Update and wait. The program may "freeze" at the end, continue to wait. Your mouse might stop responding as well. Just wait.    
-![](https://i.imgur.com/UUMryGf.png)
-![](https://i.imgur.com/PotsPIU.png)
-
-17. It might sit on a "Verify OK" message, keep waiting until you see "PASS".    
-![](https://i.imgur.com/ZyjkZ1G.png)
-
-18. Cool, the mouse firmware just updated. Now close this program out, go to the other firmware folder that you extracted and repeat the steps from step 10/11 and onward (this will update the wireless portion of the mouse).
-
-19. Once you've updated both firmware, you can reopen glorious core. If glorious core loads blank, just uninstall and reinstall it. Import the profiles you exported at the start of this tutorial.
-
------------------------------------------------------------------------------
-
-**Edit:**
-
-Some folks have tried to follow along with this tutorial and find that FirmwareUpdate.exe process just opens and closes no matter what they do. One solution a user found with some testing with me was to basically run this whole tutorial through a VM like VirtualBox (make sure you mount the mouse and wireless dongle fully in the VM) and the FirmwareUpdate.exe stayed open in the VM.
-
-Another is to try these steps below:
-
-From Step 10 and beyond:  
-
-1. Open the first folder and drag and drop the XVI.zip file to your desktop.  
-
-2. Right-click the Zip file and choose 7zip->`Extract to "XVI\"` - The password is `XVI`  
-
-3. Open this new folder and create a new folder within it named `NRF52840` and another folder named `NRF52810+264J` (these are the correct names).  
-
-4. Now move the 3 .hex files into the `NRF52840` folder  
+14. Now move the 3 .hex files into the `NRF52840` folder  
 
     **So for `v3.0.8_Model_OFirmware\NRF52840`**  
         ```CM2822_Mouse_USB_v0.03.08_20210112.hex```  
@@ -97,21 +64,37 @@ From Step 10 and beyond:
         ```CM2822_Receiver_USB_v0.03.08_20210112.hex```  
 
 
-5. You don't put anything into the `NRF52810+264J` folder. It remains empty.  
+15. You don't put anything into the `NRF52810+264J` folder. It remains empty.  
 
-6. It should look like this in the XVI folder.  
+16. It should look like this in the XVI folder.  
 ![](https://i.imgur.com/LkhUth7.png)
 ![](https://i.imgur.com/3sXgZSV.png)
 
-7. Now drag and drop those files back into the folder where you had moved the .zip file out from.  
+17. Now drag and drop those files back into the folder where you had moved the .zip file out from.  
 ![](https://i.imgur.com/6Gag0qm.png)
 
-8. It should look like this:  
+18. It should look like this:  
 ![](https://i.imgur.com/YPo7c7k.png)
 
-9. Now open the FirmwareUpdate.exe (do not need to do it as admin).  
+19. Now open the FirmwareUpdate.exe (do not need to do it as admin).  
 
-10. It should hopefully open the FirmwareUpdate.exe as normal so that you can continue from Step 15 above. If you don't see the window, see if you can find it in task manager and bring it to front similar to the original steps. You should see a window similar to this (make sure ATE is **UNCHECKED**).  
+20. It should hopefully open the FirmwareUpdate.exe as normal. If you see it, just move on to step 21. 
+
+	20b. If you don't see the window, see if you can find it in task manager and bring it to front.  In the “**Processes**” tab you should see “**FirmwareUpdate (32 bit)**” listed, expand it and then right-click on its sub-process “**FirmwareUpdater**” and choose “Bring to Front.”
+	![](https://i.imgur.com/RSjgrmV.png)
+
+21. You should see a window similar to this (make sure ATE is **UNCHECKED**).  
 ![](https://i.imgur.com/Jkc5NdT.png)
 
-**If FirmwareUpdate.exe still automatically closes you will have to attempt to update your firmware through a VIRTUAL MACHINE like VirtualBox**
+**(If FirmwareUpdate.exe automatically closes then there is some kind of AV software that may be closing it. If you can't find a solution to that at this time then your best bet is to make a Win7, Win8, or Win10 VM in something like Virtualbox. Mount the mouse and the wireless dongle into the VM, install glorious core and try all these steps over again.)**
+
+22. You'll see a window like this (don't worry if you don't see/read the same version numbers as my screenshot. Uncheck the ATE box and then click on Update and wait. The program may "freeze" at the end, continue to wait. Your mouse might stop responding as well. Just wait.    
+![](https://i.imgur.com/UUMryGf.png)
+![](https://i.imgur.com/PotsPIU.png)
+
+23. It might sit on a "Verify OK" message, keep waiting until you see "PASS".    
+![](https://i.imgur.com/ZyjkZ1G.png)
+
+24. Cool, the mouse firmware just updated. Now close this program out, go to the other firmware folder that you extracted and repeat the steps from step 10/11 and onward (overwrite the first XVI.zip file with the next one you work with or move or rename the first XVI.zip file which is what I did. I kept one named as `XVI.zip` and the renamed the other to `XVI.wireless.zip`). You have to do both for the wireless model O because it updates firmware for the mouse and for the wireless dongle.
+
+25. Once you've updated both firmware, you can reopen glorious core. If glorious core loads blank (after waiting a minute or two, just uninstall and reinstall it. Import the profiles you exported at the start of this tutorial.

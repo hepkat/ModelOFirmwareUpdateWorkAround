@@ -45,7 +45,7 @@ https://www.7-zip.org/download.html
 **v3.0.8_Model_OFirmwareWireless** is the firmware for the wireless dongle/wireless receiver in the mouse.    
 ![](https://i.imgur.com/dTcewnp.png)
 
-11. Open the first folder and drag and drop the XVI.zip file to your desktop.  
+11. Open the first folder and drag and drop the `XVI.zip` file to your desktop.  
 
 12. Right-click the Zip file and choose 7zip->`Extract to "XVI\"` - The password is `XVI`  
 
@@ -89,7 +89,7 @@ https://www.7-zip.org/download.html
 **(If FirmwareUpdate.exe automatically closes then there is some kind of AV software that may be closing it. If you can't find a solution to that at this time then your best bet is to make a Win7, Win8, or Win10 VM in something like Virtualbox. Mount the mouse and the wireless dongle into the VM, install glorious core and try all these steps over again.)**
 
 22. You'll see a window like this (don't worry if you don't see/read the same version numbers as my screenshot. Uncheck the ATE box and then click on Update and wait. The program may "freeze" at the end, continue to wait. Your mouse might stop responding as well. Just wait.    
-![](https://i.imgur.com/UUMryGf.png)
+![](https://i.imgur.com/Jkc5NdT.png)
 ![](https://i.imgur.com/PotsPIU.png)
 
 23. It might sit on a "Verify OK" message, keep waiting until you see "PASS".    

@@ -81,6 +81,7 @@ https://www.7-zip.org/download.html
 20. It should hopefully open the FirmwareUpdate.exe as normal. If you see it, just move on to step 21. 
 
 	20b. If you don't see the window, see if you can find it in task manager and bring it to front.  In the “**Processes**” tab you should see “**FirmwareUpdate (32 bit)**” listed, expand it and then right-click on its sub-process “**FirmwareUpdater**” and choose “Bring to Front.”
+
 	![](https://i.imgur.com/RSjgrmV.png)
 
 21. You should see a window similar to this (make sure ATE is **UNCHECKED**).  

@@ -98,4 +98,4 @@ https://www.7-zip.org/download.html
 
 24. Cool, the mouse firmware just updated. Now close this program out, go to the other firmware folder that you extracted and repeat the steps from step 10/11 and onward (overwrite the first XVI.zip file with the next one you work with or move or rename the one of them. For example, I kept the first one named `XVI.zip` and the renamed the other to `XVI.wireless.zip`).
 
-25. Once you've updated both firmware, you can reopen glorious core. If glorious core loads blank (after waiting a minute or two, just uninstall and reinstall it. Import the profiles you exported at the start of this tutorial.
+25. Once you've updated both firmware, you can reopen glorious core. If glorious core loads blank (after waiting a minute or two, just uninstall and reinstall it) Import the profiles you exported at the start of this tutorial.

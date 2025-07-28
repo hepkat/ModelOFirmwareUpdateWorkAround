@@ -30,7 +30,7 @@ https://www.7-zip.org/download.html
 ![](https://i.imgur.com/8KFW9u9.png)
 
 6. Double-click on the ~~**data**~~ **userdata** folder, then double-click on the **user** folder, and then the **download** folder.    
-~~![](https://i.imgur.com/F3EhuHn.png)~~ outdated
+~~![outdated image]~~
 
 7. These two files are important.    
 ![](https://i.imgur.com/WxdSh9x.png)

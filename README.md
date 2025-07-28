@@ -23,14 +23,14 @@ Then do the following:
 3. Download and install 7-zip (you can use WinRar).    
 https://www.7-zip.org/download.html
 
-4. Press the Windows key + R on your keyboard and then type in **%appdata%** and hit enter.    
+4. Press the Windows key + R on your keyboard and ~~then type in **%appdata%** ~~ (outdated info) **%programdata%** and hit enter.    
 ![](https://i.imgur.com/zAe2oIg.png)
 
 5. Double-click on the **Glorious Core** folder.    
 ![](https://i.imgur.com/8KFW9u9.png)
 
-6. Double-click on the **data** folder.    
-![](https://i.imgur.com/F3EhuHn.png)
+6. Double-click on the ~~**data**~~ **userdata** folder, then double-click on the **user** folder, and then the **download** folder.
+#~~![](https://i.imgur.com/F3EhuHn.png)~~ outdated
 
 7. These two files are important.    
 ![](https://i.imgur.com/WxdSh9x.png)
